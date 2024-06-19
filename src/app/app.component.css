@@ -1,0 +1,576 @@
+.clsColor
+{
+    background-color: #ffffff;
+    padding: 2px;
+}
+
+.clsX
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clsColorTitle
+{
+  color: #133072;
+  font-weight: 540;
+  font-size: 14px;
+}
+
+.clsDivTitle
+{
+    padding-left: 15px;
+}
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #E0C3FC, #8EC5FC);
+}
+
+.font-bold.bg-white {
+    background-color: white;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .md\\:flex {
+        flex-direction: column; /* En móviles, coloca la imagen debajo del texto */
+    }
+    .md\\:shrink-0 {
+        display: flex; /* Asegura que la imagen se centre */
+        justify-content: center;
+    }
+    .md\\:shrink-0 img {
+        width: 100%; /* Imagen adaptativa */
+        height: auto; /* Imagen adaptativa */
+    }
+}
+
+@media (max-width: 640px) {
+    .absolute.inset-0 {
+        height: 20vh; /* Reduce la altura de la tarjeta en móviles */
+        max-height: 20vh;
+    }
+}
+
+.clsMovil
+{
+    /* background-image: url('../assets/images/inicialCopia.jpg');  */
+    background-color: #eeeeee;
+    overflow: hidden; /* Ocultar el exceso de la imagen */
+    transition: transform 0.3s ease; /* Animación de transición */
+    background-size: cover; 
+    background-position: center;
+    height: 40vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.clsPadding40
+{
+    padding: 40px;
+}
+
+.clsBackgroundDceaf8
+{
+    background-color: #dceaf8;
+}
+
+.clsPaddingTop18
+{
+    padding-top: 18px;
+}
+
+.clsTextAlignCenter
+{
+    text-align: center;
+}
+
+.clsHeight
+{
+    height: 90vh;
+}
+
+.clsWidth90
+{
+    width: 90%;
+}
+
+.clsEstadosUnidos
+{
+    text-align: justify; font-size: 18px; padding-top: 25px; color: #133072;
+}
+
+
+.clsColorTextTarget
+{
+  color: #133072;
+  font-size: 20px;
+  font-weight: bold
+}
+
+@media(max-width: 640px)
+{
+    .clsColorTextTarget
+    {
+        color: #133072;
+        font-size: 18px;
+        font-weight: bold
+    }
+}
+
+@media(max-width: 640px)
+{
+    .clsColorTitle
+    {
+        color: #133072;
+        font-weight: 540;
+        font-size: 8px;
+    }
+}
+
+.targetModel
+{
+    height: 40vh;width: 30vw;margin-top: 12%;margin-left: 5%;
+    border: none;
+}
+
+.targetModelTwo
+{
+   /*  height: 90vh; */
+  width: 45vw;
+  margin-top: 28%;
+  margin-left: 25%;
+  border: none;
+}
+
+.clsLogoTwo
+{
+    border-radius: 25px;
+}
+
+.clsLogoSup
+{
+    display: flex;
+    text-align: center;
+   width: 14vw;
+}
+
+.divEnlace
+{
+    text-align: center; padding: 10px;
+}
+
+.enlace
+{
+    color: #fff;  font-weight: bold;
+}
+
+.clsWidth20
+{
+    width: 20vh;
+}
+
+.clsPrimary
+{
+    background-color: #cfc3b5; border-radius: 12px;
+}
+
+.clsPaddingWidth15
+{
+    padding: 15px;width: 15vw;
+}
+.clsTextoSomos
+{
+    display: flex; justify-content: center; font-size: 25px; font-weight: bold; color: #133072;
+}
+
+.clsPrimaryOpacity
+{
+    background-color: #c7b9a9; opacity: 0.85;
+}
+
+.enlaceMovil
+{
+    color: #fa276c;  font-weight: bold;
+}
+
+.clsColorTextRedes
+{
+    font-size: 16px;
+  color: #133072;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clsColorTextRedesSmall
+{
+    font-size: 12px;
+  color: #133072;
+  text-align: center;
+}
+
+.clsIconsDiv{
+    display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .targetModel {
+        height: 40vh;
+        width: 43vw;
+        margin-top: 4%;
+        margin-left: -3%;
+    }
+}
+
+/* Estilos para pantallas hasta 600px de ancho */
+@media (max-width: 600px) {
+    .targetModel {
+        height: 30vh;
+        width: 50vw;
+        margin-top: 8%;
+        margin-left: -5%;
+    }
+}
+
+/* Estilos para pantallas hasta 400px de ancho */
+@media (max-width: 400px) {
+    .targetModel {
+        height: 25vh;
+        width: 80vw;
+        margin-top: 12%;
+        margin-left: -10%;
+    }
+}
+
+/* @media (min-width: 640px)
+{
+    .targetModel {
+        height: 40vh;
+        width: 43vw;
+        margin-top: 4%;
+        margin-left: -3%;
+    }
+} */
+
+.borde {
+    border: 2px solid #133072;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bordeTeacherMovil {
+    border: 5px solid #133072;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bordeMovil {
+    border: 4px solid #133072;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.bordeStudent
+{
+    border: 2px solid orangered;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.bordeStudentMovil
+{
+    border: 5px solid #fa276c;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bordeStaff
+{
+    border: 2px solid #d9b4fb;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bordeStaffMovil
+{
+    border: 5px solid #d9b4fb;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; 
+}
+
+.otherContenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+}
+
+.icono {
+    width: 55px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.contenido h3 {
+    color: #133072;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em; 
+}
+
+h2
+{
+    color: #133072;
+    font-weight: bold;
+    margin: 0;
+    font-size: 2em; 
+}
+
+.contenido span {
+    display: block;
+    color: #133072;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.clsProfesores
+{
+  color: #133072;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.clsProfesoresMovil
+{
+  color: #133072;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.clsStudents
+{
+  color: orangered;
+  font-weight: bold;
+ /*  font-size: 2rm; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.clsStudentsMovil
+{
+    color: #fa276c;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.clsContendorPaisesOneMovil
+{
+  padding: 10px;
+  padding-top: 35px;
+  background: #fa276c;
+  padding-left: 20px;
+  text-align: justify;
+  font-size: 12px;
+  color: #fff;
+}
+
+.clsStaffMovil
+{
+  color: #d9b4fb;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.clsStaff
+{
+  color: #d9b4fb;
+  font-weight: bold;
+  /* font-size: 2rm; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.clsMarginTop
+{
+    margin-top: -19px;
+}
+
+.clsBotton
+{
+    background: #133072;
+  color: #fff;
+  padding: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+  margin: 5px;
+  border-radius: 12px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.clsContendorPaisesOne
+{
+  padding: 10px;
+  background: orangered;
+  padding-left: 20px;
+  text-align: justify;
+  font-size: 12px;
+  color: #fff;
+}
+
+.clsContendorPaisesTree
+{
+    padding: 10px;
+    background: #133072;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    color: #fff;
+}
+
+.clsContendorPaisesTwo
+{
+    padding: 10px;
+    background: #d9b4fb;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    color: #fff;
+}
+
+.clsPaddingContentPaises
+{
+    padding: 15px;
+    margin-top: -35px;
+}
+
+.clsMapa
+{
+    margin-top: -28px;
+    cursor: pointer;
+}
+
+/* Tarjeta Flotante */
+.floating-card 
+{
+    position: fixed;
+    right: 15px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre la tarjeta */
+.floating-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/*animaciones*/
+/* Clase para la tarjeta */
+
+.tarjetAminationOne {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+/* Efecto al pasar el cursor sobre la tarjeta */
+.tarjetAminationOne:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tarjetAmination {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Clase para la imagen dentro de la tarjeta */
+.tarjetAmination img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre la tarjeta */
+.tarjetAmination:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.tarjetAmination img:hover {
+    transform: scale(1.1);
+}
+
+.clsTarjetMisionVisionMovil
+{
+    background-color: #fff;padding: 10px;
+}
+
+.clsTextoMovil
+{
+    display: flex; justify-content: center; font-size: 25px; font-weight: bold; color: #133072;
+    padding: 15px;
+}
+.clsTextPurpeMovil
+{
+  color: #133072;
+  font-weight: bold;
+  background: #d5adfb;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.clsBackground
+{
+    background-color: #fff;
+}
+
+.clsPadre
+{
+    padding: 15px
+}
+
+.alturaMovil
+{
+    height: 30vh;
+}
+
+.clsTextoMovilPurple
+{
+    color: #133072; padding: 15px; font-size: 20px; font-weight: 400;
+}
+
+.clsTextoBottonMovilRegistroLegal
+{
+    text-align: center; font-size: 18px; padding-top: 25px; color: #133072; font-weight: bold;
+}
+
+
